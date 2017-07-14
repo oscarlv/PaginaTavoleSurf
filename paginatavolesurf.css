@@ -24,6 +24,23 @@ body{
   height: 47%;
   margin-left: 450px;
   margin-top: 5%;
+  display: block;
+}
+
+.quadro{
+  background-image: url(http://i.imgur.com/jlJNice.png);
+  width: 270px;
+  height: 185px;
+  margin-left: 560px;
+  margin-top: -730px;
+}
+
+.quadro1{
+  background-image: url(http://i.imgur.com/d74f05H.png);
+  width: 270px;
+  height: 185px;
+  margin-left: 1000px;
+  margin-top: -183px;
 }
 
 .footer{
@@ -32,6 +49,6 @@ body{
   width: 1050px;
   height: 200px;
   margin-left: 400px;
-  margin-top: 50%;
+  margin-top: 75%;
 
 }
