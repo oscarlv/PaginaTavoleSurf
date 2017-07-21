@@ -181,3 +181,136 @@ body{
        height: 300px;
        width: 800px;
      }
+
+}
+
+
+     /*screen iphone 6-7 plus portrait*/
+
+     @media only screen and (max-width: 414px) and (max-height: 736px) {
+       body{
+          background-position: center;
+          width: 700px;
+          height: 2000px;
+          background-size: cover;
+          }
+
+          .navbar{
+            background-position: center;
+            margin-left: 10px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: -10px;
+            height: 300px;
+            width: 800px;
+
+          }
+
+
+          .rettangoli{
+            background-position: center;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            margin-left: -50px;
+            width: 900px;
+            height: 900px;
+            margin-top: -30px;
+          }
+
+
+          .quadro{
+            margin-left: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top: -500px;
+            width: 500px;
+            height: 100px;
+          }
+
+          .quadro1{
+            margin-left: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-top: -100px;
+            width: 500px;
+            height: 100px;
+          }
+
+          .footer{
+            background-position: center;
+            margin: auto;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 900px;
+            height: 300px;
+            width: 800px;
+          }
+
+  }
+
+
+/*sceen iphone 6-7plus landscape*/
+@media only screen and (max-width: 736px) and (max-height: 414px){
+  body{
+     background-position: center;
+     width: 900px;
+     height: 900px;
+     background-size: auto;
+     }
+
+     .navbar{
+       background-position: center;
+       margin:auto;
+       background-size: contain;
+       background-repeat: no-repeat;
+       margin-top: -10px;
+       height: 300px;
+       width: 800px;
+
+     }
+
+
+     .rettangoli{
+       background-position: center;
+       background-size: contain;
+       background-repeat: no-repeat;
+       margin: auto;
+       width: 800px;
+       height: 700px;
+       margin-top: -30px;
+     }
+
+
+     .quadro{
+       margin-left: 250px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin-top: -400px;
+       width: 150px;
+       height: 80px;
+     }
+
+     .quadro1{
+       margin-left: 500px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin-top: -80px;
+       width: 150px;
+       height: 80px;
+     }
+
+     .footer{
+       background-position: center;
+       margin: auto;
+       background-size: contain;
+       background-repeat: no-repeat;
+       margin-top: 500px;
+       height: 300px;
+       width: 800px;
+     }
+
+}
